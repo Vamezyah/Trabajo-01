@@ -1,0 +1,75 @@
+:root {
+    --colorinventado: #909090;
+}
+
+h1 {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    color: mediumseagreen;
+}
+
+
+ul{
+    font-family: 'Marhey', sans-serif;
+    font-size: 0.75em;
+}
+
+.padre{
+    font-family: 'Marhey', sans-serif;
+    font-size: 0.75em;
+}
+
+h2 {
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 1em;
+    color: var(--colorinventado);
+    padding-left:5px ;
+}
+
+.h2nohereda {
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 1rem;
+    color: var(--colorinventado);
+    padding-left:5px ;
+}
+
+.VERDE {
+    color: mediumseagreen;
+}
+
+.divfondoBorde{
+    background-color: #c3d5b9;
+    border-style: groove;
+    border-color: var(--colorinventado);
+}
+
+.wrapper{
+    display: grid;
+}
+
+.uno{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.dos{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.tres{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.cuatro{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.imagen{
+    width: 150px; height: 175px;
+    border-style: groove;
+    border-color: var(--colorinventado);
+}
